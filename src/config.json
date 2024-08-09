@@ -1,0 +1,32 @@
+{
+    "runner": "junyyang",
+    "sample_rate": 0.1,
+    "number_client": 100,
+    "dim_in": 784,
+    "dim_out": 10,
+    "p": 10,
+    "learningrate_server": 1,
+    "round": 750,
+    "learningrate_client": 0.001,
+    "test_batch_size": 1000,
+    "gpu": 1,
+    "verbose": 1,
+    "target": 97,
+
+    "attack": 0,
+
+    "model_type": {
+        "0": "CNN",
+        "1": "CNN_sketch"
+    },
+    "datatype": {
+        "0": "mnist",
+        "1": "cifar",
+        "2": "LFW"
+    },
+    "sketchtype": {
+        "0": "wo_sketch",
+        "1": "gaussian",
+        "2": "count"
+    }
+}
